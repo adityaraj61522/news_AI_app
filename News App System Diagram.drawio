@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-04T14:43:12.472Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="DB7naJtRzDy1XRnS2eBX" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-04T15:23:38.864Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="33uQHyL7Ed80NtDMeb86" version="22.0.8" type="github">
   <diagram name="Page-1" id="ooymN39htJFAiMMMNbam">
     <mxGraphModel dx="1434" dy="1907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -104,13 +104,13 @@
         <mxCell id="35AxEwu4sgub31DyYWiS-30" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Sends back pagnised news list&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="180" y="-599" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="35AxEwu4sgub31DyYWiS-31" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+        <mxCell id="35AxEwu4sgub31DyYWiS-31" value="" style="endArrow=none;html=1;rounded=0;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="240" y="70" as="sourcePoint" />
             <mxPoint x="240" y="-270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="35AxEwu4sgub31DyYWiS-32" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+        <mxCell id="35AxEwu4sgub31DyYWiS-32" value="" style="endArrow=none;html=1;rounded=0;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="560" y="70" as="sourcePoint" />
             <mxPoint x="560" y="-270" as="targetPoint" />
@@ -150,7 +150,7 @@
           <mxGeometry x="630" y="-230" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="35AxEwu4sgub31DyYWiS-42" value="NodeJs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="370" y="-230" width="60" height="30" as="geometry" />
+          <mxGeometry x="370" y="-214" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="35AxEwu4sgub31DyYWiS-43" value="Flask" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="660" y="-220" width="60" height="30" as="geometry" />
@@ -166,9 +166,6 @@
             <mxPoint x="330" y="-190" as="sourcePoint" />
             <mxPoint x="170" y="-190" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="35AxEwu4sgub31DyYWiS-46" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Cron (Runs Every 1 hour)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="325" y="-210" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="35AxEwu4sgub31DyYWiS-47" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -190,7 +187,7 @@
         <mxCell id="35AxEwu4sgub31DyYWiS-50" value="Mongo&lt;br&gt;DB" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="370" y="-40" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="35AxEwu4sgub31DyYWiS-51" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Cron Saves the News Data Every Hour with TTL of 24 Hours&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="35AxEwu4sgub31DyYWiS-51" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Fetch The news from DB with the&amp;nbsp; newsId from request&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="240" y="-110" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="35AxEwu4sgub31DyYWiS-52" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="35AxEwu4sgub31DyYWiS-49" edge="1">
@@ -207,13 +204,13 @@
             <mxPoint x="-10" y="-7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="35AxEwu4sgub31DyYWiS-54" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;Sends&amp;nbsp; back stored the News which was stored During Last Job run&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="35AxEwu4sgub31DyYWiS-54" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;Sends&amp;nbsp; back stored the News with the same newsId&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="430" y="-100" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="35AxEwu4sgub31DyYWiS-55" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Get News Called&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="190" y="-240" width="140" height="30" as="geometry" />
+        <mxCell id="35AxEwu4sgub31DyYWiS-55" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Get AI Generated News Called&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="180" y="-240" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="35AxEwu4sgub31DyYWiS-56" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Sends back pagnised news list&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="35AxEwu4sgub31DyYWiS-56" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Sends back AI Generated News&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="180" y="-199" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="35AxEwu4sgub31DyYWiS-57" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -227,6 +224,37 @@
         </mxCell>
         <mxCell id="35AxEwu4sgub31DyYWiS-60" value="OPENAI(ChatGPT)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="660" y="-5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZKE08CKIG5KXjL135xHY-1" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Sends news JSON to get the AI generatd Insights from the source website&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="-250" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZKE08CKIG5KXjL135xHY-3" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="35AxEwu4sgub31DyYWiS-41" target="35AxEwu4sgub31DyYWiS-59">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="-199" as="sourcePoint" />
+            <mxPoint x="800" y="-249" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="-150" />
+              <mxPoint x="580" y="-100" />
+              <mxPoint x="600" y="-40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZKE08CKIG5KXjL135xHY-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="35AxEwu4sgub31DyYWiS-59" target="35AxEwu4sgub31DyYWiS-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="730" y="-110" as="sourcePoint" />
+            <mxPoint x="780" y="-160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="780" y="-40" />
+              <mxPoint x="800" y="-100" />
+              <mxPoint x="780" y="-150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZKE08CKIG5KXjL135xHY-5" value="&lt;div style=&quot;text-align: left; font-size: 7px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 7px;&quot;&gt;1. Gets the source link and the title of the news&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 7px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2. Gets the website page content&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3. Split the content into 200 char chunks basis (&quot;/n/n&quot;,&quot;/n&quot;,&quot;.&quot;)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;4. Encode each chunk into vector.&lt;br&gt;5. Store the encoded vectors to a vector DB&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;6. Encode the title into vector.&lt;br&gt;7. Search the vector DB for the the encoded title&lt;br&gt;8. Form a chunk of about 1000 chars for forming the prompt.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;9. Request OpenAi API to form a summarised insightful Paragraph.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;10. Return back the Response received back from the API.&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="-145" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ZKE08CKIG5KXjL135xHY-33" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Retrurns summarised and insightful news on the screen&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="-190" width="170" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
